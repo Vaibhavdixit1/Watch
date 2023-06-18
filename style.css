@@ -1,0 +1,41 @@
+#clockcontainer{
+    position: relative;
+    margin: auto;
+
+    height: 40vw;
+    width: 40vw;
+    background: url(watch2.png) no-repeat;
+    background-size: 100%;
+}
+#hour,#minute,#secound{
+    position: absolute;
+    background-color: #000000;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width:1.7% ;
+   height:21% ;
+         top:27.4%;
+           left:49%;
+              
+}
+#minute{
+    width:1.5% ;
+    height:26% ;
+          top:23%;
+            left:49.5%;        
+
+}
+#secound{
+    width:1% ;
+   height:35% ;
+         top:16%;
+           left:49%;     
+}
+body{
+    background-image: url(shyam.jpeg);
+  background-repeat: no-repeat;
+            background-size: cover;
+            
+}
